@@ -1,0 +1,7 @@
+# Core dependencies
+langchain
+langchain-community
+langchain_ollama
+llm-guard
+chromadb
+pypdf
