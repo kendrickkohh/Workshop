@@ -43,10 +43,9 @@ Main querying interface that:
 - Uses RAG (Retrieval-Augmented Generation) to retrieve relevant context from the datastore
 - Applies input/output validation using `guardrail.py`
 
-### Ollama models
+### ChatGPT model used
 
-- Llama3.2
-- mxbai-embed-large
+- gpt-5-mini
 
 ## Acknowledgements
 
