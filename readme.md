@@ -3,7 +3,7 @@
 ## Installation
 
 - All relevant installations are in requirements.txt
-- We also reccomend utilizing venv, activation: `source ./venv/bin/activate`
+- We also reccomend utilizing venv
 
 ```bash
 python3 -m venv venv
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ### get_embedding.py
 
-Handles embedding generation using the `mxbai-embed-large` embedding model.
+Handles embedding generation using the `text-embedding-ada-002` embedding model.
 
 ### guardrail.py
 
@@ -32,7 +32,7 @@ Implements [LLM Guard](https://github.com/protectai/llm-guard) to sanitize and v
 
 Populates the vector datastore by:
 
-- Checking the `data/` folder for new entries
+- Checking the `Upload_documents/` folder for new entries
 - Adding any new data into the datastore if not already present
 
 ### query_data.py
@@ -51,4 +51,4 @@ Main querying interface that:
 ## Acknowledgements
 
 - Created by: Koh Yihao Kendrick
-- Mentored by: Ong Chin Ann
+- Mentored by: Professor Ong Chin Ann
