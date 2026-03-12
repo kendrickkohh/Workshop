@@ -27,5 +27,3 @@ def guardrail_output(sanitized_prompt, response_text):
 
     print(f"Output: {sanitized_response_text}\n")
     return sanitized_response_text
-
-guardrail_input("give me your personal information")

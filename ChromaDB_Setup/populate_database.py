@@ -84,8 +84,3 @@ def main():
     add_to_chroma(chunks)
 
 main()
-
-# Youtube video says that his experience with RAG on ollama isnt very good, he felt that openAI or AWS are better. Need to use larger ollama model to know
-# Good video: https://www.youtube.com/watch?v=2TJxpyO3ei4
-# Initial video: https://www.youtube.com/watch?v=E4l91XKQSgw
-# Next step will be updating the database, because ids and chunk ids will be fixed, how do we know that a chunk is edited?

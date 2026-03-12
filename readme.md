@@ -3,7 +3,6 @@
 ## Installation
 
 - All relevant installations are in requirements.txt
-- We reccomend utilizing `python3.10`
 - We also reccomend utilizing venv, activation: `source ./venv/bin/activate`
 
 ```bash
@@ -46,10 +45,10 @@ Main querying interface that:
 
 ### Ollama models
 
-Llama3.2
-mxbai-embed-large
+- Llama3.2
+- mxbai-embed-large
 
 ## Acknowledgements
 
-- Created by: Koh Yihao Kendrick (U2222663K)
+- Created by: Koh Yihao Kendrick
 - Mentored by: Ong Chin Ann
