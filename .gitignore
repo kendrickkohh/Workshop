@@ -3,3 +3,4 @@ venv/
 chroma/
 __pycache__/
 .DS_Store
+documents/information_chatbot_visible.pdf
